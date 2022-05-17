@@ -7,48 +7,93 @@ export class ComunicacionService {
   listaObjetos: any[] = [
     {
       id: 1,
-      title: 'Escuche activamente',
+      title: 'Haz contacto visual',
       description:
-        'Esta habilidad es fundamental para entender a la otra persona; concéntrese en lo que está diciendo el interlocutor, es relevante prestar atención, observar el lenguaje corporal, dejar que la persona termine de hablar, y evitar distracciones como el celular ya que es irrespetuoso y esto hace que no se centre en la escucha',
-      imageUrl: 'escucha-activa-880.jpg',
-      video: 'https://www.youtube.com/embed/TgHe1XjYHhw',
+        'El contacto visual con el público es muy importante para poder conectarse con clientes o interlocutores que se tengan en frente, la falta de contacto demuestra falta de seguridad como si estuviésemos intimidados',
+      imageUrl: 'contacto visual.jpg',
+      video: 'https://www.youtube.com/embed/vtlmJV7wEJ4',
       step: 'Primer paso',
     },
     {
       id: 2,
-      title: 'Demuestre seguridad',
+      title: 'Gesticula ',
       description:
-        'para algunos individuos es un desafío comunicarse con su jefe. Sin embargo, este no debe ser un limitante. El lenguaje verbal y no verbal comunican por lo que el uso correcto del lenguaje corporal, las palabras y el tono es fundamental. Evite hablar de forma agresiva, si se encuentra alterado, tómese un tiempo para dirigirse a su jefe. Una forma de adquirir seguridad es preparar con antelación lo que desea comunicar, incluyendo las respuestas a las posibles preguntas que surjan una vez emita el mensaje',
-      imageUrl: 'segurida930x620.jpg',
-      video: 'https://www.youtube.com/embed/01Lr4PwKzuw',
+        'Si tenemos conciencia de los gestos que hacemos, sabemos lo que estamos diciendo, logrando así el control de lo que se está diciendo. Se puede expresar con las manos o con el rostro',
+      imageUrl: 'Gesticulacion.jpg',
+      video: 'https://www.youtube.com/embed/dw5zl3sAx9A',
       step: 'Segundo paso',
     },
     {
       id: 3,
-      title: 'Utilice las palabras adecuadas',
+      title: 'Ve al grano',
       description:
-        'usted puede decir lo mismo, pero las palabras van a determinar la percepción del receptor. Algunos ejemplos son: •	Hace falta vs. Una oportunidad de mejora es… •	Hágalo así vs. Le sugiero, •	No puedo, ¿Con que tiempo?  Vs. En este momento estoy en otra actividad a ¿qué debo darle prioridad?, •	Cálmese vs escuchar, dejar que se desahogue y después buscar la solución',
-      imageUrl: 'utilizar palabras adecuadas.jpg',
-      video: 'https://www.youtube.com/embed/vzyYtFGHOC4',
+        'Muchas veces llevamos conversaciones a puntos muertos en donde no se requiere mayor interés, “ir al grano”, requiere de mucha habilidad sobre todo en momentos de intentar convencer a un cliente',
+      imageUrl: 'ir al grano.jpg',
+      video: 'https://www.youtube.com/embed/4usdgGgfNbo',
       step: 'Tercer paso',
     },
     {
       id: 4,
-      title: 'Evite suponer, valide',
+      title: 'Escucha antes de hablar',
       description:
-        'cuando le surja una duda, aclárela, asimismo, sea sincero cuando no tenga conocimiento de algo, no saber algo no puede generarle vergüenza, pero en muchas ocasiones no ser honesto desde el principio acerca del desconocimiento de algo, hace que las cosas se retrasen, o que no tenga pleno entendimiento de la misión que se le encomiendan. Si tiene una duda acerca del uso de algún termino, verifíquelo. Igualmente, asegúrese que lo que quería comunicar se entendió.',
-      imageUrl: 'Suponer-1024x682.jpg',
-      video: 'https://www.youtube.com/embed/aJXhhQgCCIU',
+        'Saber escuchar es algo muy importante dentro de la comunicación, por tal razón como menciona Epiteo "Tenemos dos oídos y una boca para escuchar el doble de lo que hablamos. (Epíteto)"',
+      imageUrl: 'escucha antes de hablar.jpg',
+      video: 'https://www.youtube.com/embed/Tt2J6KLPvnU',
       step: 'Cuarto paso',
     },
     {
       id: 5,
-      title: 'Detecte el momento y canal adecuado para hablar con su jefe',
+      title: 'Has más preguntas ',
       description:
-        'El tiempo y el lugar son fundamentales para otorgar un mensaje adecuado, e incluso reforzar la información por varios canales, ayuda a que se comprenda el mismo.  Los emails, en muchas ocasiones pueden pasar desapercibidos, por lo que es importante reforzar los mensajes a través del contacto verbal, confirmando la recepción de la información, o incluso un mensaje de WhatsApp siempre y cuando aplique según el objetivo de lo que quiera comunicar',
-      imageUrl: 'hablar-jefe.jpg',
-      video: 'https://www.youtube.com/embed/aJXhhQgCCIU',
+        'Este punto está ligado con el inmediatamente anterior, ya que al tener una escucha activa, podemos determinar lo que el cliente desea, pero no asumas cosas, es mejor seguir preguntando hasta llegar a la satisfacción del cliente',
+      imageUrl: 'has mas preguntas.jpg',
+      video: 'https://www.youtube.com/embed/YBWIMFjzy5o',
       step: 'Quinto paso',
+    },
+    {
+      id: 6,
+      title: 'Lee',
+      description:
+        'Este tip juega un papel muy importante, ya que el leer hace que tu lenguaje verbal, y no verbal mejore en un 40 %, logrando de esta manera conseguir que el cliente nos entienda mejor',
+      imageUrl: 'lee.jpg',
+      video: 'https://www.youtube.com/embed/nx1Fp_27YoA',
+      step: 'Sexto paso',
+    },
+    {
+      id: 7,
+      title: 'Elige el medio correcto ',
+      description:
+        'Muchas veces no elegimos el medio correcto para decir las cosas, como por ejemplo si necesitas algo urgente y tienes la posibilidad de transmitir este mensaje de manera personal, hazlo, ya que es una tarea que lo requiere. El medio a veces influye mucho en las tareas de las demás personas, muchas veces genera desconcentración, poco interés y que la información no logre ser transmitida. Como lo veremos a continuación',
+      imageUrl: 'escuchar el medio correcto.png',
+      video: 'https://www.youtube.com/embed/-KscrAzJSjo',
+      step: 'Septimo paso',
+    },
+    {
+      id: 8,
+      title: 'No interrumpas',
+      description:
+        'El no interrumpir es tan, o mas importante que hablar, esto se debe a que si no dejas que tu cliente o persona que se encuentra frente a ti no termina de expresar sus ideas, se tiende a mal interpretar lo que te intentan decir',
+      imageUrl: 'no interrumpir.jpg',
+      video: 'https://www.youtube.com/embed/v803oz1pZPY',
+      step: 'Octavo paso',
+    },
+    {
+      id: 9,
+      title: 'Practica frente al espejo',
+      description:
+        'Muchas veces la inseguridad que nace en nosotros es algo de falta de autoestima, los ejercicios frente al espejo refuerzan mucho esta parte, generando asi tal confianza en nosotros que la podremos transmitírsela a los demás',
+      imageUrl: 'frente al espejo.jpg',
+      video: 'https://www.youtube.com/embed/IiGdH5cRLnM',
+      step: 'Noveno paso',
+    },
+    {
+      id: 10,
+      title: 'Vincúlate',
+      description:
+        'Al poner la atención debida a tu cliente o interlocutor, lograras entender con mas claridad lo que te tratan de transmitir, de esta manera harás que tu trato hacia ellos sea más empático',
+      imageUrl: 'vinculate.jpg',
+      video: 'https://www.youtube.com/embed/dw7UvqJoykY',
+      step: 'Decimo paso',
     },
   ];
   constructor() {}

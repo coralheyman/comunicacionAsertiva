@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  color: white !important;
 }
 .wrapper {
   display: flex;
@@ -9,7 +8,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-color: #ebebeb;
-  background:url("./assets/images/background.jpg");
+  background:url("./assets/images/background3.jpg");
 }
 
 .wrapper > * {
@@ -90,7 +89,7 @@ body {
   grid-template-rows: 1fr;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background: rgb(255, 7, 110);
+  background: #BAABBA;
 }
 .card-stats .stat {
   padding:10px;
@@ -119,4 +118,7 @@ body {
 .card-new:hover {
   transform: scale(1.15) ;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.textSize{
+  font-size: 20px;
 }
