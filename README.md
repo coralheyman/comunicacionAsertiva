@@ -1,5 +1,8 @@
 # ComunicacionAsertivaApp
 
+Para desplegar la aplicación se debe correr 
+ng deploy --base-href=/comunicacionAsertiva/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
 
 ## Development server
